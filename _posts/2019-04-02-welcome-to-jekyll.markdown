@@ -90,6 +90,11 @@ Checkout
 另起一个主库版本
 
 
+改名文件
+git mv -f oldfolder newfolder
+git add -u newfolder (-u选项会更新已经追踪的文件和文件夹)
+git commit -m "changed the foldername whaddup"
+git mv foldername tempname && git mv tempname folderName (在大小写不敏感的系统中，如windows，重命名文件的大小写,使用临时文件名)
 
 
 
@@ -198,6 +203,14 @@ GitHub上添加SSH Key
 
 
 需要做的只是在 Key 那栏把 id_rsa.pub 公钥文件里的内容复制粘贴进去就可以了（上述示例为了安全粘贴的公钥是无效的），Title 栏不需要填写，点击 Add SSH key 按钮就ok了。
+
+
+
+
+
+
+
+
 
 
 
