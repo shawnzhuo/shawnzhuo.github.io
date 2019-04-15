@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome  shawnzhuo"
+title:  "Git 分布式版本管理系统"
 date:   2017-03-02 17:05:13 +0000
 categories: jekyll update
 ---
